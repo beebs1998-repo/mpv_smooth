@@ -13,6 +13,7 @@ Playback smooth video with frame interpolation on mpv
 !                 vf set vapoursynth="~~/vs/MEMC_MVT_LQ.vpy"
 @                 vf set vapoursynth="~~/vs/MEMC_MVT_STD.vpy"
 SHARP             vf set vapoursynth="~~/vs/MEMC_RIFE_STD.vpy"
+$                 vf set ""
 ```
 
 ## **Notes** 
