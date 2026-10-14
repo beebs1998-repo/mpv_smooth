@@ -1,0 +1,5 @@
+# Prebuilt VapourSynth plugins and RIFE model weights are shipped artifacts.
+# -text disables CRLF/LF normalization so the files stay byte-identical to
+# what upstream released; core.autocrlf would otherwise rewrite the .param
+# text files and silently alter the models.
+vs-plugins/** -text
